@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gym_app</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="large_text">abc</string>
+    <string name="inst">The results show a number of daily calorie estimates that can be used as a guideline for how many calories to consume each day to maintain, lose, or gain weight at a chosen rate.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling_ex1_video">Scrolling_ex1_video</string>
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ex1"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:accessibilityHeading="true"
+                android:outlineSpotShadowColor="@color/purple_200"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                app:srcCompat="@drawable/ex1" />
+
+            <TextView
+                android:id="@+id/ex1_hading"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Doumble BenchPress"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/ex1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/ex2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ex1"
+                app:srcCompat="@drawable/ex1" />
+
+            <TextView
+                android:id="@+id/ex2_hading"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Pack Deck Fly"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/ex2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="330dp" />
+
+            <ImageView
+                android:id="@+id/ex3"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:accessibilityHeading="true"
+                android:outlineSpotShadowColor="@color/purple_200"
+                android:scaleType="fitXY"
+                android:src="@drawable/ex1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ex2" />
+
+            <TextView
+                android:id="@+id/ex3_hading"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Doumble Sholder Press"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/ex3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="330dp" />
+
+            <ImageView
+                android:id="@+id/ex4"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:accessibilityHeading="true"
+                android:outlineSpotShadowColor="@color/purple_200"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ex3"
+                app:srcCompat="@drawable/ex1" />
+
+            <TextView
+                android:id="@+id/ex4_hading"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Latral Raise"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/ex4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/ex5"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ex4"
+                app:srcCompat="@drawable/ex1" />
+
+            <TextView
+                android:id="@+id/ex5_hading"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Real Delt Fly"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/ex5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="330dp" />
+
+            <ImageView
+                android:id="@+id/ex6"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:accessibilityHeading="true"
+                android:outlineSpotShadowColor="@color/purple_200"
+                android:scaleType="fitXY"
+                android:src="@drawable/ex1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ex5" />
+
+            <TextView
+                android:id="@+id/ex6_hading"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Skull Crusher"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/ex6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="330dp" />
+
+            <ImageView
+                android:id="@+id/ex7"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:accessibilityHeading="true"
+                android:outlineSpotShadowColor="@color/purple_200"
+                android:scaleType="fitXY"
+                android:src="@drawable/ex1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ex6" />
+
+            <TextView
+                android:id="@+id/ex7_hading"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Tricep Pushdown"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/ex7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="330dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#D8D0D0"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Exercise"
+                android:textColor="#673AB7"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>

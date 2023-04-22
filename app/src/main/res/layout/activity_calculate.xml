@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculate"
+    tools:openDrawer="end"
+    android:id="@+id/drawer_layout">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_hading_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Calories Intake Calculater"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radio_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_gender">
+
+            <RadioButton
+                android:id="@+id/radio_m"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:padding="10dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="95dp" />
+
+            <RadioButton
+                android:id="@+id/radio_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:padding="10dp"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="95dp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="16dp"
+            android:text="Select Gender"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_hading_cal" />
+
+
+        <EditText
+            android:id="@+id/edt_weight_input"
+            android:layout_width="113dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="8dp"
+            android:ems="6"
+            android:gravity="center"
+            android:hint="Kg"
+            android:inputType="textPersonName"
+            android:outlineAmbientShadowColor="@color/red"
+            app:layout_constraintStart_toEndOf="@+id/txt_weight"
+            app:layout_constraintTop_toBottomOf="@+id/radio_gender" />
+
+        <TextView
+            android:id="@+id/txt_hight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="36dp"
+            android:text="Hight"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_weight" />
+
+        <EditText
+            android:id="@+id/edt_hight_ft"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="20dp"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="ft"
+            android:inputType="number"
+            app:layout_constraintStart_toEndOf="@+id/txt_hight"
+            app:layout_constraintTop_toBottomOf="@+id/edt_weight_input" />
+
+        <EditText
+            android:id="@+id/edt_hight_inch"
+            android:layout_width="81dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="inches"
+            android:inputType="number"
+            app:layout_constraintStart_toEndOf="@+id/edt_hight_ft"
+            app:layout_constraintTop_toBottomOf="@+id/edt_weight_input" />
+
+
+        <TextView
+            android:id="@+id/txt_fit_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:text="Fitness Level"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_age" />
+
+        <Button
+            android:id="@+id/btn_calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="62dp"
+            android:backgroundTint="@color/red"
+            android:text="Calculate"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_clear"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiolevel"
+            app:layout_constraintVertical_bias="0.423" />
+
+        <TextView
+            android:id="@+id/txt_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            android:text="Weight"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radio_gender" />
+
+        <RadioGroup
+            android:id="@+id/radiolevel"
+            android:layout_width="238dp"
+            android:layout_height="232dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_fit_level">
+
+            <RadioButton
+                android:id="@+id/radio_no_ex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Exercise"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="365dp" />
+
+            <RadioButton
+                android:id="@+id/radio_low_ex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lightly Active"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="413dp" />
+
+
+            <RadioButton
+                android:id="@+id/radio_sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:accessibilityHeading="true"
+                android:text="Moderately Active"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="461dp" />
+
+            <RadioButton
+                android:id="@+id/radio_weigth_traning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="509dp" />
+
+            <RadioButton
+                android:id="@+id/radio_weigth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very Active"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="509dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="32dp"
+            android:text="Age"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_hight" />
+
+        <EditText
+            android:id="@+id/edt_age"
+            android:layout_width="124dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="16dp"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="Age"
+            android:inputType="number"
+            app:layout_constraintStart_toEndOf="@+id/txt_age"
+            app:layout_constraintTop_toBottomOf="@+id/edt_hight_ft" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@color/blue"
+            android:text="Clear"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toEndOf="@+id/btn_calculate" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
+        android:id="@+id/nav"
+        app:menu="@menu/nav_manu"
+        app:headerLayout="@layout/hader_nav"
+        android:layout_gravity="start"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

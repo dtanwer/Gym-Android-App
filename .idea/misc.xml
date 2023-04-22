@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.131640625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_1.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_about.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_cal_output.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_calculate.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_exercise.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_feedback.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_progress.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_push1.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_register.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_scrolling.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/activity_scrolling_ex1_video.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/content_scrolling.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/file.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/layout/hader_nav.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Gym_app/app/src/main/res/menu/nav_manu.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

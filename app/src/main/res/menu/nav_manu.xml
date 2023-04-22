@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Push/Pull/Leg"
+        android:id="@+id/work_out"
+        android:icon="@drawable/ic_work_out"
+        />
+    <item android:title="Calculater"
+        android:id="@+id/calculater"
+        android:icon="@drawable/ic_calculate"
+        />
+    <item android:title="Progress"
+        android:id="@+id/progress"
+        android:icon="@drawable/ic_feedback"/>
+    <item android:title="About"
+        android:id="@+id/about"
+        android:icon="@drawable/heart_icon"/>
+    <item android:title="Login"
+        android:id="@+id/login"
+        android:icon="@drawable/ic_login"
+        />
+
+</menu>
